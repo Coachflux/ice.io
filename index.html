@@ -92,6 +92,44 @@ p#break {
   max-width: 700px;
 }
 
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.46);
+  border-radius: 10px;
+  margin-bottom: 2em;
+  padding: 2em;
+  /* Gives opacity to card without effecting children */
+  background: rgba(247, 247, 247, 0.95);
+}
+
+.message-title {
+  margin-top: 0;
+  padding-bottom: 0.75em;
+  border-bottom: solid 1px rgb(221, 221, 221);
+  text-align: left;
+}
+
+.message-container {
+  margin-bottom: 8em;
+  max-width: 600px;
+}
+
+form {
+  display: grid;
+
+  grid-template-columns: 90px auto auto;
+  grid-column-gap: 0.5em;
+  grid-row-gap: 2em;
+}
+
+label {
+  font-weight: bold;
+  grid-column: 1/2;
+}
+
+input {
+  /* May help keep right column responsive
+	width: cal(100%-200px); */
+  grid-column: 2/4;
+
 
 </style>		
 		
