@@ -62,8 +62,8 @@ body {
   color: #555555;
   margin: 0;
   padding: 0;
-  font-size: 1.02rem;
-  line-height: 1.2;
+  font-size: 1.0rem;
+  line-height: 1;
 
   background-attachment: fixed;
   background-size: cover;
@@ -87,7 +87,7 @@ p#break {
 }
 
 .container {
-  width: 65%;
+  width: 60%;
   margin: auto;
   max-width: 600px;
 }
@@ -95,21 +95,21 @@ p#break {
 .card {
   box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.46);
   border-radius: 10px;
-  margin-bottom: 1em;
-  padding: 1em;
+  margin-bottom: 0em;
+  padding: 0em;
   /* Gives opacity to card without effecting children */
   background: rgba(247, 247, 247, 0.95);
 }
 
 .message-title {
   margin-top: 0;
-  padding-bottom: 0.75em;
+  padding-bottom: 0.55em;
   border-bottom: solid 1px rgb(221, 221, 221);
   text-align: left;
 }
 
 .message-container {
-  margin-bottom: 6em;
+  margin-bottom: 4em;
   max-width: 600px;
 }
 
@@ -130,7 +130,7 @@ input {
   /* May help keep right column responsive
 	width: cal(100%-200px); */
   grid-column: 2/4;
-  height: 3em;
+  height: 2em;
   border: solid 3px var(--primary-clr);
   border-radius: 4em;
   padding: 0 1em;
@@ -157,7 +157,7 @@ textarea:focus {
   grid-column: 2/3;
 }
 
-.last-name {
+.user-name {
   grid-column: 3/4;
 }
 
@@ -259,7 +259,7 @@ textarea:focus {
     
     <label for="name" class="name">Name
     </label>
-    <input class="last-name" type="text" name="last-name" placeholder="Username" maxlength="20">
+    <input class="user-name" type="text" name="user-name" placeholder="Username" maxlength="20">
 
     <p class="button-container">
       <input class="button" type="submit" value="Send">
@@ -267,9 +267,6 @@ textarea:focus {
   </form>
 </div>
              <!-- canvas -->
-             
-
-        </section>
 
          <!-- section right -->
          <section class="right">
