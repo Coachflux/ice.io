@@ -32,103 +32,28 @@
 	
 	<div class="container py-4">
 		
-		<h1>SocialShareJS</h1>
 		
-		<iframe src="https://data.jsdelivr.com/v1/package/gh/assisfery/SocialShareJS/badge" frameborder="0" height="30" width="160">
-			
-		</iframe>
-		
-
-		<br><br>
-		
-		<p>Just include the <b>social-share.css</b> and <b>social-share.js</b> files.</p>
-
 		<pre class="alert alert-secondary">&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/assisfery/SocialShareJS@1.4/social-share.min.css"&gt;
 &lt;script src="https://cdn.jsdelivr.net/gh/assisfery/SocialShareJS@1.4/social-share.min.js"&gt;&lt;/script&gt;</pre>
 
 
-		<br><br>
 		
-
-		<pre class="alert alert-secondary">&lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css&quot;&gt;
-&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js&quot;&gt;&lt;/script&gt;</pre>
-
-		<br><br>
-		<h3>Get Started</h3>
-		<p>
-			To have the social share buttons just put the class <b>ss-box</b> in one or more of you <b>containers</b>
-		</p>
-		<pre class="alert alert-secondary">&lt;div class="ss-box"&gt;&lt;/div&gt;</pre>
-		<br>
-		<div class="ss-box" data-ss-link="https://github.com/assisfery/SocialShareJS">
-			
-		</div>
-
-		<br><br>
-		<h3>Select Social Network</h3>
-		<p>If you want to select specifics social share network just add the <b>data-ss-social</b> attribute in your
-		container.</p>
-		<pre class="alert alert-secondary">&lt;div class="ss-box" data-ss-social="facebook, pinterest"&gt;&lt;/div&gt;</pre>
-		<br>
-		<div class="ss-box" data-ss-social="facebook, pinterest">
-			
-		</div>
-
-		<br><br>
-		<h3>Change Link</h3>
-		<p>For defaults the SocialShareJs put the current page location as share link but you can change it just including the
-		<b>data-ss-link</b> attribute in your container.</p>
-		<pre class="alert alert-secondary">&lt;div class="ss-box" data-ss-link="https://www.google.com/"&gt;&lt;/div&gt;</pre>
-		<br>
-		<div class="ss-box" data-ss-link="https://www.google.com/">
-			
-		</div>
 		
-
-		<br><br>
-		<h3>Responsive check</h3>
-		<p>
-		Some of buttons (like: <b>share native</b> ,<b>messenger</b>, <b>viber</b> and <b>sms</b>) perhaps
-		not work on desktop OS, but its works in mobile OS like Android and IOS, so may be necessary
-		to show that buttons only in mobile screen.
-		<br><br>
-		To solve that problem you could include the class <b>ss-responsive</b> on
-		your container.
-		</p>
-		<pre class="alert alert-secondary">&lt;div class="ss-box ss-responsive"&gt;&lt;/div&gt;</pre>
-		<div class="ss-box ss-responsive"></div>
-
-		<br><br>
-		<h3>Customizations</h3>
-
-		<br>
-		<h5>Hide Social Network Name</h5>
-		<p>If you want to show just the icons without the name of Social Network just include <b>data-ss-content</b> attribute with value <b>false</b>.</p>
-		
-		<pre class="alert alert-secondary">&lt;div class="ss-box" data-ss-content="false"&gt;&lt;/div&gt;</pre>
-		<br>
-		<div class="ss-box" data-ss-content="false"></div>
-
 		<br><br>
 		<h5>Rounded buttons</h5>
 		<p>If you want to make button with circle shape just include the class <b>ss-circle</b> in <b>ss-box</b> container.</p>
 		<pre class="alert alert-secondary">&lt;div class="ss-box ss-circle" data-ss-content="false"&gt;&lt;/div&gt;</pre>
 		<br>
-		<div class="ss-box ss-circle" data-ss-content="false"></div>
+		<div class="ss-box ss-circle ss-shadow" data-ss-content="false"></div>
 
-		<br><br>
-		<h5>Flat buttons</h5>
-		<p>If you want to make button without rounded border just include the class <b>ss-flat</b> in <b>ss-box</b> container.</p>
-		<pre class="alert alert-secondary">&lt;div class="ss-box ss-flat"&gt;&lt;/div&gt;</pre>
-		<br>
-		<div class="ss-box ss-flat"></div>
+		
 
 		<br><br>
 		<h5>Pill buttons</h5>
 		<p>If you want to make button with pill shape effect just include the class <b>ss-pill</b> in <b>ss-box</b> container.</p>
 		<pre class="alert alert-secondary">&lt;div class="ss-box ss-pill"&gt;&lt;/div&gt;</pre>
 		<br>
-		<div class="ss-box ss-pill"></div>
+		<div class="ss-box ss-pill ss-shadow"></div>
 
 		<br><br>
 		<h5>Button with Shadows</h5>
@@ -138,103 +63,9 @@
 		<div class="ss-box ss-shadow"></div>
 
 		
-		<br><br>
-		<h5>Strait</h5>
-		<p>If you want to all your buttons have the same color just use the class <b>ss-strait</b> in <b>ss-box</b> container.</p>
-		<pre class="alert alert-secondary">&lt;div class="ss-box ss-strait ss-dark" data-ss-content="false"&gt;&lt;/div&gt;</pre>
-		<br>
-		<div class="ss-box ss-strait ss-dark" data-ss-content="false"></div>
-
-		<br><br>
-		<h5>Position fixed</h5>
-		<p>To create the buttons in a fixed position combine the class <b>ss-fixed</b> with <b>ss-bottom, ss-top, ss-left</b> or <b>ss-right</b> in <b>ss-box</b> container.</p>
-		<pre class="alert alert-secondary">&lt;div class="ss-box ss-fixed ss-bottom" data-ss-content="false"&gt;&lt;/div&gt;</pre>
-		<br>
-		<!--<div class="ss-box ss-fixed ss-bottom" data-ss-content="false"></div>-->
-
-		<br><br>
-		<h5>Hide Icons</h5>
-		<p>If you dont want to show the icons of Social Network just include <b>data-ss-icon</b> attribute with value <b>false</b>.</p>		
-		<pre class="alert alert-secondary">&lt;div class="ss-box" data-ss-icon="false"&gt;&lt;/div&gt;</pre>
-		<br>
-		<div class="ss-box" data-ss-icon="false"></div>
-
-		<br><br>
-		<h5>Change Icons</h5>
-		<p>
-			If you want to change the icon class of any Social Network to another icon of you
-			preference or icon of others packages just include the <b>data-ss-icon-class</b>
-			with value <b>social_name1: icon_class1, social_name2: iconclass2</b>
-			<br><br>
-			for example:
-			<br><br>
-			include <b>data-ss-icon-class="facebook:fab fa-facebook-messenger,email:fas fa-sms"</b> so
-			it will put the icon <b>fab fa-facebook-messenger</b> instead the facebook default icon and it will
-			put the icon <b>fas fa-sms</b> instead the email default icon.
-
-		</p>		
-		<pre class="alert alert-secondary">&lt;div class="ss-box" data-ss-social="facebook, email" data-ss-icon-class="facebook:fab fa-facebook-messenger,email:fas fa-sms"&gt;&lt;/div&gt;</pre>
-		<br>
-		<div class="ss-box" data-ss-social="facebook, email" data-ss-icon-class="facebook:fab fa-facebook-messenger,email:fas fa-sms">	
-		</div>
-
-		<br><br>
-		<h3>Hover Effects</h3>
-		<br>
-
-		<h5>Grow</h5>
-		<p>Include <b>ss-grow</b> in your container to make button grow when the mouse is hover.</p>
-		<pre class="alert alert-secondary">&lt;div class="ss-box ss-grow" data-ss-social="facebook"&gt;&lt;/div&gt;</pre>
-		<div class="ss-box ss-grow" data-ss-social="facebook"></div>
-
-		<br><br>
-		<h5>Shrink</h5>
-		<p>Include <b>ss-shrink</b> in your container to make button shrink when the mouse is hover.</p>
-		<pre class="alert alert-secondary">&lt;div class="ss-box ss-shrink" data-ss-social="facebook"&gt;&lt;/div&gt;</pre>
-		<div class="ss-box ss-shrink" data-ss-social="facebook"></div>
-
-		<br><br>
-		<h5>Rotate</h5>
-		<p>Include <b>ss-rotate</b> in your container to make button rotate when the mouse is hover.</p>
-		<pre class="alert alert-secondary">&lt;div class="ss-box ss-rotate" data-ss-social="facebook"&gt;&lt;/div&gt;</pre>
-		<div class="ss-box ss-rotate" data-ss-social="facebook"></div>
-
-		<br><br>
-		<h5>Float</h5>
-		<p>Include <b>ss-float</b> in your container to make button float when the mouse is hover.</p>
-		<pre class="alert alert-secondary">&lt;div class="ss-box ss-float" data-ss-social="facebook"&gt;&lt;/div&gt;</pre>
-		<div class="ss-box ss-float" data-ss-social="facebook"></div>
-
-		<br><br>
-		<h5>JavaScript Utils</h5>
-		<p>If you want to create a share box in JavaScript you can use the follow function.</p>
-		<pre class="alert alert-secondary">SocialShare.createShareBox(_elements, _link = null, _socials =  null, _showIcon = true, _showContent = true, _clearContainer = true);</pre>
-
+		
 		<ul>
-			<li><b>_elements</b> - the dom elements where the socials buttons will be created</li>
-			<li><b>_link</b> - the link/content will be shared, by default will be the current window location</li>
-			<li><b>_showIcon</b> - the social button icon will be presented or not</li>
-			<li><b>_showContent</b> - the social button name/label will be presented or not</li>
-			<li><b>_clearContainer</b> - clear or not the elements before create  the buttons</li>
-		</ul>
-
-		<p>For example</p>
-		<pre class="alert alert-secondary">SocialShare.createShareBox("#newShareBox", "https://github.com/assisfery/SocialShareJS", "facebook, twitter, email, sms, viber");</pre>
-
-		<button type="button" class="btn btn-primary" onclick="createNewShareBox()">Create Share Box</button>
-		<div id="newShareBox"></div>
-
-		<br><br>
-		<h5>Just Move On...</h5>
-		<p>If you want to customize the share buttons like you want just do it adding css effect in your code.</p>
-		<pre class="alert alert-secondary">.ss-btn{
-	/*your code*/
-}</pre>
-
-		<br>
-		<div class="text-right text-muted">
-			<span>Made with ♥ by <a href="https://github.com/assisfery/" target="_blank">Assis Ferreira</a></span>
-		</div>
+		
 
 		<script>			
 
