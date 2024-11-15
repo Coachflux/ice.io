@@ -1,3 +1,16 @@
+p{
+    text-align: center;
+    color: #fff ! important;
+}
+
+.head{
+	color: #fff !important;
+	margin: 4px;
+	display: inline-block;
+	text-align: center;
+}
+
+
 .ss-btn{
 	padding: 8px 12px;
 	background: #888;
