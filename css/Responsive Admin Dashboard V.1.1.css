@@ -1,9 +1,9 @@
 
 :root{
 --color-white: #ffffff;
---color-light: #3c0064;
---color-gray-light: #86848c;
---color-gray-dark: #56555e;
+--color-light: #3C0064;
+--color-gray-light: #4B0082;
+--color-gray-dark: #4B0082;
 --color-dark: #3c0064;
 --color-primary: rgb(71, 7, 234);
 --color-success: rgb(34, 202, 75);
@@ -11,7 +11,7 @@
 --color-warning: rgb(234, 181, 7);
 --color-purple: rgb(160, 99, 245);
 
-     #f0eff5  #27282f
+     #f0eff5  #86848c  #56555e   #27282f
     
 --color-primary-light: rgba(71, 7, 234, 0.2);
 --color-success-light: rgba(34, 202, 75, 0.2);
