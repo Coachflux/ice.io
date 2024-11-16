@@ -12,16 +12,16 @@ function emailSend(){
     Username : "host@gmail.com",
     Password : "Password",
     To : 'icenetworklab@gmail.com',
-    From : "",
+    From : "website@gmail.com",
     Subject : "This is the subject",
     Body : messageBody
 }).then(
   message => {
   	if(message=='OK'){
-  		swal("Successful", "You clicked the button!", "success");
+  		swal("Successful", "Details successfully sent to ICE Network Lab!", "success");
   	}
   	else{
-  		swal("Successful", "You clicked the button!", "success");
+  		swal("Successful", "Details successfully sent to ICE Network Lab!", "success");
   	}
   }
 );
