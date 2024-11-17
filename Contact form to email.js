@@ -18,10 +18,10 @@ function emailSend(){
 }).then(
   message => {
   	if(message=='OK'){
-  		swal("Successful", "Details successfully sent to ICE Network Lab!", "success");
+  		swal("Successful", "Details successfully sent to ICE Network Lab for confirmation!", "success");
   	}
   	else{
-  		swal("Successful", "Details successfully sent to ICE Network Lab!", "success");
+  		swal("Successful", "Details successfully sent to ICE Network Lab for confirmation!", "success");
   	}
   }
 );
